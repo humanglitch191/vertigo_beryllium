@@ -2,6 +2,8 @@
 
 ![logo](https://i.imgur.com/qUoLgdl.jpg "logo")
 
+Current version: `Vertigo-1.1`
+
 > _starts playing **start//end** by EDEN_
 
 ## Why even?
