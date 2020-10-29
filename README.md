@@ -2,9 +2,9 @@
 
 ![logo](https://i.imgur.com/qUoLgdl.jpg "logo")
 
-Current version: `Vertigo-1.1`
+Current version: `Vertigo-1.5`
 
-> _starts playing **start//end** by EDEN_
+> _starts playing **rock+roll** by EDEN_
 
 ## Why even?
-Tbh, I was bored and wanted to do something fun ¯\_(ツ)_/¯
+Tbh, I was bored and wanted to do something fun (ツ)
