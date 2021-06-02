@@ -187,13 +187,31 @@
 &pmi8998_haptics {
        status = "okay";
        qcom,vmax-mv = <2812>;
-       qcom,play-rate-us = <4878>;
-       wf_0 { qcom,wf-vmax-mv = <2812>; };
-       wf_1 { qcom,wf-vmax-mv = <2812>; };
-       wf_2 { qcom,wf-vmax-mv = <2812>; };
-       wf_3 { qcom,wf-vmax-mv = <2812>; };
-       wf_4 { qcom,wf-vmax-mv = <2812>; };
-       wf_5 { qcom,wf-vmax-mv = <2812>; };
+       qcom,play-rate-us = <5858>;
+       wf_0 { 
+		qcom,wf-vmax-mv = <2812>;
+		qcom,wf-play-rate-us = <5207>; 
+       };
+       wf_1 { 
+		qcom,wf-vmax-mv = <2812>; 
+		qcom,wf-play-rate-us = <5580>;
+       };
+       wf_2 { 
+		qcom,wf-vmax-mv = <2812>; 
+		qcom,wf-play-rate-us = <3125>;
+       };
+       wf_3 { 
+		qcom,wf-vmax-mv = <2812>; 
+		qcom,wf-play-rate-us = <5207>;
+       };
+       wf_4 { 
+		qcom,wf-vmax-mv = <2812>; 
+		qcom,wf-play-rate-us = <3905>;
+       };
+       wf_5 { 
+		qcom,wf-vmax-mv = <2812>; 
+		qcom,wf-play-rate-us = <5207>;
+       };
 };
 
 &mdss_mdp {
