@@ -185,20 +185,15 @@
 };
 
 &pmi8998_haptics {
-	qcom,vmax-mv = <2812>;
-	qcom,lra-auto-mode;
-	qcom,overdrive;
-	qcom,wave-play-rate-us = <4878>;
-	qcom,wave-shape = "sine";
-	qcom,lra-high-z = "opt1";
-	qcom,lra-auto-res-mode = "qwd";
-	qcom,lra-res-cal-period = <4>;
-	qcom,effect-max = <3>;
-	qcom,effect-arry = [3e 3e be a0 00 00 00 00
-			3e 3e 3e be be 00 00 00
-			3e 3e 3e 3e be be a0 90];
-	qcom,play-mode = "buffer";
-	status = "okay";
+       status = "okay";
+       qcom,vmax-mv = <2812>;
+       qcom,play-rate-us = <4878>;
+       wf_0 { qcom,wf-vmax-mv = <2812>; };
+       wf_1 { qcom,wf-vmax-mv = <2812>; };
+       wf_2 { qcom,wf-vmax-mv = <2812>; };
+       wf_3 { qcom,wf-vmax-mv = <2812>; };
+       wf_4 { qcom,wf-vmax-mv = <2812>; };
+       wf_5 { qcom,wf-vmax-mv = <2812>; };
 };
 
 &mdss_mdp {
